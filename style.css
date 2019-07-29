@@ -5,12 +5,34 @@
   font-size: 200%;
 }
 body{
-  background-color: #FEE4EF;
-}
+
+     animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+        /* you could also use milliseconds (ms) or something like 2.5s */
+     -webkit-animation: colorchange 50s; /* Chrome and Safari */
+   }
+
+   @keyframes colorchange
+   {
+     0%   {background: #E4BDFE;}
+     25%  {background: #FEBDE2;}
+     50%  {background: #C1FEBD;}
+     75%  {background: #FEED98;}
+     100% {background: #98C1FE;}
+   }
+
+   @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+   {
+     0%   {background: #E4BDFE;}
+     25%  {background: #FEBDE2;}
+     50%  {background: #C1FEBD;}
+     75%  {background: #FEED98;}
+     100% {background: #98C1FE;}
+   }
+
 .f{
-  font-size: 300%;
+  font-size: 400%;
   font-family: 'Bree Serif', serif;
-  color:lightsalmon;
+  color: black;
 }
 .message{
   font-size: 300%;
