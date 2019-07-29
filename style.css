@@ -6,9 +6,15 @@
 }
 body{
 
+<<<<<<< HEAD
+     animation: colorchange 5s; /* animation-name followed by duration in seconds*/
+        /* you could also use milliseconds (ms) or something like 2.5s */
+     -webkit-animation: colorchange 5s; /* Chrome and Safari */
+=======
      animation: colorchange 50s; /* animation-name followed by duration in seconds*/
         /* you could also use milliseconds (ms) or something like 2.5s */
      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+>>>>>>> a31a2dce8edc1a29423c8544eaa5014b54178b9f
    }
 
    @keyframes colorchange
