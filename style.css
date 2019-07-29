@@ -1,0 +1,18 @@
+.click{
+  background-color:palevioletred;
+  color: white;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 200%;
+}
+body{
+  background-color: #FEE4EF;
+}
+.f{
+  font-size: 300%;
+  font-family: 'Bree Serif', serif;
+  color:lightsalmon;
+}
+.message{
+  font-size: 300%;
+  font-family: 'Bree Serif', serif;
+}
